@@ -1,0 +1,102 @@
+body{
+  background-color: #ffe05d;
+  text-align: center;
+  margin: 0;
+}
+h1{
+  font-size:90px;
+  font-family: 'Caveat', cursive;
+  display:block;
+}
+
+hr{
+   border-width: 2px;
+   color: #7ea04d; background-color:#7ea04d;
+   width: 50%;
+}
+.hr1{
+  position: relative;
+  top:120px;
+}
+
+.noblue{
+  color: black;
+  text-decoration: none;
+}
+p{
+  font-family: 'Indie Flower', cursive;
+  display: inline-block;
+}
+.topnav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height:60px;
+  width: 100%;
+  background-color: #ffe05d;
+}
+.pic{
+  position: fixed;
+  top:5px;
+  left: 10px;
+}
+.about{
+  height: 50px;
+  width:94px;
+  display: inline-block;
+  position: fixed;
+  top:5px;
+  left: 120px;
+  font-family: 'Sedgwick Ave', cursive;
+}
+.acadmics{
+  height: 50px;
+  width:101px;
+  display: inline-block;
+  position: fixed;
+  top:5px;
+  left: 220px;
+  font-family: 'Sedgwick Ave', cursive;
+}
+.table{
+
+}
+.achievements{
+  height: 50px;
+  width:145px;
+  display: inline-block;
+  position: fixed;
+  top:5px;
+  left: 400px;
+  font-family: 'Sedgwick Ave', cursive;
+}
+.skills{
+  height: 50px;
+  width:57px;
+  display: inline-block;
+  position: fixed;
+  top:5px;
+  left: 330px;
+  font-family: 'Sedgwick Ave', cursive;
+}
+.instagram{
+  position: absolute;
+  right: 10px;
+  top:5px;
+}
+.facebook{
+  position: absolute;
+  right: 65px;
+  top:5px;
+}
+.about:hover , .skills:hover , .acadmics:hover ,.achievements:hover {
+  background-color:#f8efd4;
+}
+
+.b{
+  width:500px;
+  height:330px;
+  position: relative;
+  left: 270px;
+  top: 10px;
+}
